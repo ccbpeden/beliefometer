@@ -6,9 +6,87 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title></title>
+    <title>political beliefometer</title>
   </head>
   <body>
-
+    <div class="container">
+      <h1>Lets find out where your beliefs lie on the political spectrum by answering some questions.</h1>
+      <div>
+        <form id=radio1>
+          <p>Do you believe that the laws of the country should be interpreted primarily according to the intentions of the founding fathers or according to current prevailing values? </p>
+          <div class="radio">
+            <label>
+              <input type="radio" name="laws" value="1">
+              founding fathers
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="laws" value="-1">
+              current values
+            </label>
+          </div>
+        </form>
+        <form id=radio2>
+          <p> Do you believe that each individual should be responsible for the choice of and payment for of their own healthcare, or that the state has an obligation to regulate and provide health care for all citizens?</p>
+          <div class="radio">
+            <label>
+              <input type="radio" name="healthcare" value="1">
+              personal responsibility
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="healthcare" value="-1">
+              public responsibility
+            </label>
+          </div>
+        <form id=radio3>
+          <p> Do you believe that the best way to improve national prosperity is by a free market or a managed economy?</p>
+          <div class="radio">
+            <label>
+              <input type="radio" name="economy" value="1">
+            free market
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="economy" value="-1">
+            managed economy
+            </label>
+          </div>
+        </form>
+        <form id=radio4>
+          <p> Do you believe that marriage is defined as a relationship between a man and a woman, or that marriage is more broadly defined as a relationship between consenting adults?</p>
+          <div class="radio">
+            <label>
+              <input type="radio" name="social" value="1">
+            man and wife
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="social" value="-1">
+            whoever feels like it
+            </label>
+          </div>
+        </form>
+        <form id=radio5>
+          <p> Do you believe that global warming is real and a result of human activity, or that evidence is inconclusive?</p>
+          <div class="radio">
+            <label>
+              <input type="radio" name="environment" value="-1">
+            human activity
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="environment" value="1">
+            inconclusive
+            </label>
+          </div>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
